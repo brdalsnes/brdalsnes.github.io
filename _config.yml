@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Bjørnar Dalsnes
+title: </> Bjørnar Dalsnes
 email: bjornar.dalsnes@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Programming projects of Bjørnar Dalsnes.
@@ -20,11 +20,11 @@ default-image: webjeda-logo-big.jpg # If there is no featured image in a post th
 
 #footer
 
-built-by: Bjørnar Dalsnes
+#built-by: Bjørnar Dalsnes
 
-copyright:
-   name: webjeda
-   link: 'http://blog.webjeda.com'
+#copyright:
+#   name: webjeda
+#   link: 'http://blog.webjeda.com'
 
 # Build settings
 markdown: kramdown
