@@ -3,6 +3,7 @@ layout: post
 title:  "World predictor"
 date:   2017-02-05
 main-class: java
+image: java_logo.png
 ---
 The wisdom of the crowd is the idea that a large group of people can make better predictions than a single expert. Collecting a huge number of answers allows you to even out the inevitable noise and emotional investment that comes with a single answer.
 
