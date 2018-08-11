@@ -9,7 +9,7 @@
 title: Bjørnar Dalsnes
 email: bjornar.dalsnes@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Programming projects of Bjørnar Dalsnes.
+  My programming projects.
   
   
 baseurl: "" # the subpath of your site, e.g. /blog
