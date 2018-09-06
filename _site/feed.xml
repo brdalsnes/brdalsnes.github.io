@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bjørnar Dalsnes</title>
+    <description>My programming projects.
+</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 11 Aug 2018 23:17:44 +0200</pubDate>
+    <lastBuildDate>Sat, 11 Aug 2018 23:17:44 +0200</lastBuildDate>
+    <generator>Jekyll v3.8.3</generator>
+    
+      <item>
+        <title>Markov chain text generator</title>
+        <description>&lt;p&gt;This program mimics its input text using a &lt;a href=&quot;https://en.wikipedia.org/wiki/Markov_chain&quot;&gt;Markov Chain&lt;/a&gt;. Each node in the chain represents a word. From the input text the distribution of following words is determined. The ouput will resemble the input text, but will most likely be nonsensical. It can lead to some fun results. Here is an example of the output produced using … as input.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 16 Jul 2018 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/markov/</link>
+        <guid isPermaLink="true">http://localhost:4000/markov/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Vessel trajectory prediction and collision avoidance</title>
+        <description>&lt;p&gt;During my master thesis I implemented an algorithm that predicts the future position of a vessel based on AIS data. The algorithm uses a close neighbor approach, where it assumes the vessel will continue with a velocity similar to historical neighbors from the dataset. In addition, I modified an existing collision avoidance algorithm for autonomous vessels to include the new prediction algorithm.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/colav.png&quot; alt=&quot;Collision avoidance&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The image shows the obstacle vessel in red and its predicted future position is given by the multi-colored distribution, where the predicted position is given by a new color for every minute. The autonomous vessel is shown in blue, and its planned path is given by the crosses. For more details see my &lt;a href=&quot;http://localhost:4000/assets/masteroppgave.pdf&quot;&gt;master thesis&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 27 Jun 2018 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/master/</link>
+        <guid isPermaLink="true">http://localhost:4000/master/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>World predictor</title>
+        <description>&lt;p&gt;The wisdom of the crowd is the idea that a large group of people can make better predictions than a single expert. Collecting a huge number of answers allows you to even out the inevitable noise and emotional investment that comes with a single answer.&lt;/p&gt;
+
+&lt;p&gt;This approach has proven to work in the past with &lt;a href=&quot;https://en.wikipedia.org/wiki/Prediction_market&quot;&gt;prediction markets&lt;/a&gt; like &lt;a href=&quot;https://www.buzzfeed.com/andrewrice/the-fall-of-intrade-and-the-business-of-betting-on-real-life?utm_term=.wh4ojrV4m#.lkJzXJkgW&quot;&gt;Intrade&lt;/a&gt;. World Predictor is a simplified version of this: choosing one event equates “buying” one event and “selling” the other. The probability of an event is calculated using &lt;a href=&quot;http://localhost:4000/assets/mktscore.pdf&quot;&gt;Hanson’s logarithmic market scoring rule (LMSR)&lt;/a&gt; which simulates the probability (or price) an event would have if it was traded on a market.&lt;/p&gt;
+
+&lt;p&gt;This project was developed as an Android app using Java. The app can be found &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.brdalsnes.worldpredictor&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 05 Feb 2017 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/predictor/</link>
+        <guid isPermaLink="true">http://localhost:4000/predictor/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
